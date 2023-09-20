@@ -16,7 +16,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/link', {
 });
 
 // Rutas de usuario
-app.use('/api/usuarios', usuariosRouter);
+app.use('/api/link', usuariosRouter);
 
 
 
